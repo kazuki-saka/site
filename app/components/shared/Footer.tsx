@@ -26,9 +26,9 @@ export default function Footer() {
           <div>
             <h2 className={ "md:!text-left !mb-8 md:!mb-12" }>関連サイト</h2>
             <div className={ "flex flex-col gap-8" }>
-            <div>
+              <div>
                 <p className={ "text-20ptr md:text-24ptr lg:text-28ptr font-notoserifjp" }>福井中央魚市株式会社</p>
-                <a className={ "text-16ptr md:text-20ptr lg:text-24ptr text-blue-550 font-notoserifjp hover:underline" } href={ "https://www.fukui-marunaka.co.jp/" } target={ "_blank" } rel={ "noopener noreferrer" }>https://bisyoku-fukui.jp/</a>
+                <a className={ "text-16ptr md:text-20ptr lg:text-24ptr text-blue-550 font-notoserifjp hsover:underline" } href={ "https://www.fukui-marunaka.co.jp/" } target={ "_blank" } rel={ "noopener noreferrer" }>https://bisyoku-fukui.jp/</a>
               </div>
               <div>
                 <p className={ "text-20ptr md:text-24ptr lg:text-28ptr font-notoserifjp" }>美食福井</p>
