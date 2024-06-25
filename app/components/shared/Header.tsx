@@ -2,7 +2,7 @@ import { Link } from "@remix-run/react";
 import { useEffect, useState, useRef, useMemo } from "react";
 import { m, domAnimation, LazyMotion, AnimatePresence } from "framer-motion";
 import Logo from "~/components/shared/Logo";
-//import Arrow from "./Arrow";
+import Arrow from "./Arrow";
 
 export default function Header() {
   // States
@@ -124,11 +124,11 @@ const Figure = ({ ...props }: {
  */
 const Button = () => (
   <>
-  {/*
+  {
     <a href={ "https://app.fukui-sakana.com" } target={ "_blank" } rel={ "noreferrer" } className={ "group flex gap-4 justify-center items-center w-[92%] md:w-[70%] h-[66px] md:h-[88px] bg-yellow-550 rounded-full hover:bg-blue-550" }>
       <span className="block text-blue-550 text-20ptr md:text-24ptr font-bold group-hover:text-white">生産・市場情報を見る</span>
       <Arrow className={ "h-2 md:h-3 stroke-blue-550 group-hover:stroke-white" }/>
     </a>
-  */}
+  }
   </>
 );
